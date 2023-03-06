@@ -1,0 +1,12 @@
+~~~POSTGRES~~~
+
+docker pull postgres
+docker run -itd -e POSTGRES_USER=madhu -e POSTGRES_PASSWORD=Admin@123 -p 5432:5432 --name postgresql postgres
+
+
+~~~ PgAdmin Connection Details: ~~~
+
+Host: 127.0.0.1
+port: 5432
+username: madhu
+password: Admin@123
