@@ -1,0 +1,11 @@
+~~~ sonarqube ~~~
+docker pull sonarqube
+
+run sonarqube from Docker tool
+
+set local port: 9000 or something else
+
+go to http://localhost:9000
+
+default username: admin
+default password: admin
