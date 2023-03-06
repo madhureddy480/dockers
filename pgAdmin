@@ -1,0 +1,8 @@
+~~~~PgAdmin~~~
+docker pull dpage/pgadmin4:latest
+docker run --name pgadmin-baeldung -p 5051:80 -e "PGADMIN_DEFAULT_EMAIL=user@madhukarnati.com" -e "PGADMIN_DEFAULT_PASSWORD=password" -d dpage/pgadmin4
+
+
+go to localhost:5051
+login: user@madhukarnati.com
+password: password
